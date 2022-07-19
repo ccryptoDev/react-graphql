@@ -1,0 +1,71 @@
+{
+  "tree": [
+  
+    {
+      "_id": "GGEGjKu",
+      "children": [
+        {
+          "_id": "IeTEeRRk",
+          "children": [
+            {
+              "_id": "IerTERRk",
+              "children": [],
+              "item": { "name": "china" }
+            },
+            {
+              "_id": "wnSisyyTq",
+              "children": [],
+              "item": { "name": "Singapore" }
+            }
+                    
+          ],
+          "item": { "name": "Asia" }
+        },
+        {
+          "_id": "IeTEeRRk1",
+          "children": [
+            {
+              "_id": "IerTERRk",
+              "children": [],
+              "item": { "name": "Russia" }
+            },
+            {
+              "_id": "wnSisyyTq",
+              "children": [],
+              "item": { "name": "France" }
+            },
+            {
+              "_id": "wnSisyyTq",
+              "children": [],
+              "item": { "name": "Spain" }
+            }
+                    
+          ],
+          "item": { "name": "Europe" }
+        },
+        {
+          "_id": "IeTEeRRk2",
+          "children": [
+            {
+              "_id": "IerTERRk",
+              "children": [],
+              "item": { "name": "US" }
+            },
+            {
+              "_id": "wnSisyyTq",
+              "children": [],
+              "item": { "name": "Cadada" }
+            }
+           
+                    
+          ],
+          "item": { "name": "America" }
+        }
+        
+      ],
+      "item": { "name": "world" }
+    }
+    
+
+  ]
+}

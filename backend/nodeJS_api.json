@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Graphql-Nodejs test",
+    "version": "1.0.0-oas3"
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "paths": {
+    "/generateToken": {
+      "get": {
+        "summary": "generateToken",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/graphql": {
+      "post": {
+        "summary": "graphql queries",
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "$ref": "#/components/schemas/graphql_body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+     "graphql_body": {
+        "properties": {
+          "query": {
+            "type": "string",
+            "example": "{helloworld}"
+          },
+        }
+      },
+    },
+  }
+}
